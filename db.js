@@ -14,3 +14,4 @@ const pool = new Pool({
     port: DB.PGPORT
 })
 
+module.exports = pool;
